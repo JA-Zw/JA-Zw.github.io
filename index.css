@@ -3,3 +3,6 @@ body {
     background:#222;
     font-family: Arial, sans-serif
 }
+#pasfoto {
+    float: right;
+}
