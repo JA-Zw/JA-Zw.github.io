@@ -12,6 +12,7 @@ body {
 	margin: 0px;
 }
 
+/* de standaardkleurtjes, maar nét wat lichter om het duidelijker te maken op de donkerdere achtergrond */
 a:visited {
 	color:fuchsia;
 }
