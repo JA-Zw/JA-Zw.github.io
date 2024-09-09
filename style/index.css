@@ -53,12 +53,16 @@ a[data-huidig]:hover {
 	background-color: #faa;
 }
 
+td[data-huidig] {
+	background-color: #a53;
+}
+
 nav div:hover a {
 	background-color: #aaa;
 }
 
 nav div a:visited {
-	color:black; /*als esv override voor in menutje*/
+	color: black; /*als esv override voor in menutje*/
 }
 
 main {
@@ -70,6 +74,8 @@ main {
 	border-left: 1.5pt solid white;
 	padding-left: 6px;
 	margin-left: 4px;
+	margin-right: 4px;
+	overflow-x:auto;
 }
 
 article:nth-of-type(odd) {
@@ -114,6 +120,12 @@ td {
 table {
 	border-collapse: collapse;
 	
+}
+/*helaas kan je niet [value >= 45] doen, dat is jammer*/
+meter { 
+	height: 18px;
+	width: 450px;
+	border:none;
 }
 
 /* voor submenutjes, gaat nu nog niet lukken
