@@ -24,7 +24,7 @@ a {
 nav {
 	background: #333;
 	width: 100%;
-	font-size: 14pt;
+	font-size: 16pt;
 	position:fixed;
 	top: 0px;
 }
@@ -35,7 +35,7 @@ nav div {
 }
 
 nav div a {
-	height: 16pt;
+	height: 20pt;
 	display: inline-block;
 	min-width: 6em;
 	background-color: #999;
@@ -53,8 +53,13 @@ a[data-huidig]:hover {
 	background-color: #faa;
 }
 
-td[data-huidig] {
+tr[data-huidig] > td {
 	background-color: #a53;
+	font-weight: bold;
+}
+
+.sh {
+	background-image:linear-gradient(to left, #108CEA, #9B0E63);
 }
 
 nav div:hover a {
@@ -66,7 +71,7 @@ nav div a:visited {
 }
 
 main {
-	margin-top: 20px;
+	margin-top: 24px;
 	padding: 8px;
 }
 
@@ -90,7 +95,7 @@ article:nth-of-type(even) {
 	display:block;
 	float:left;
 	margin-right: 5px;
-	background-color: darkblue;
+	background-color: #131349;
 }
 
 .linkerlinks > ul {
@@ -128,6 +133,20 @@ meter {
 	border:none;
 }
 
+.ietsjeGroter {
+	font-size: 16pt;
+}
+
+#plekvulling {
+	background-image: url(https://hz.nl/uploads/media/2.Algemeen/Locaties/Groene-Woud/_600x450_crop_center-center_90_none/2185129/Groene-Woud-buitenkant-header-1.webp);
+	width: 100%;
+	height: 350px;
+	background-size: cover;
+	color: black;
+	font-size: xx-large;
+	text-align: center;
+	padding-top: 100px;
+}
 /* voor submenutjes, gaat nu nog niet lukken
 nav > div div {
 	display: none;
