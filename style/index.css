@@ -7,7 +7,7 @@ body {
 	margin: 0px;
 }
 
-.figuurrechts {
+.figuur-rechts {
 	float: right;
 	margin: 0px;
 }
@@ -60,6 +60,7 @@ tr[data-huidig] > td {
 
 .sh {
 	background-image:linear-gradient(to left, #108CEA, #9B0E63);
+	text-align: center;
 }
 
 nav div:hover a {
@@ -91,25 +92,27 @@ article:nth-of-type(even) {
 	background-color: #333;
 }
 
-.linkerlinks{
+.linker-links{
 	display:block;
 	float:left;
 	margin-right: 5px;
 	background-color: #131349;
 }
 
-.linkerlinks > ul {
+.linker-links > ul {
 	margin:0px;
 	list-style-type: none;
 	padding:2px;
 }
 
 h1,h2 {
+	margin-left: 5px;
 	margin-top: 0px;
 }
 
 p, ul {
 	margin-bottom:0px;
+	margin-left: 5px;
 }
 article {
 	padding-top: 8px;
@@ -133,7 +136,7 @@ meter {
 	border:none;
 }
 
-.ietsjeGroter {
+.ietsje-groter {
 	font-size: 16pt;
 }
 
@@ -147,6 +150,11 @@ meter {
 	text-align: center;
 	padding-top: 100px;
 }
+
+.foto-homepagina {
+	height: 325px;
+}
+
 /* voor submenutjes, gaat nu nog niet lukken
 nav > div div {
 	display: none;
